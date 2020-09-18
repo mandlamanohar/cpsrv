@@ -43,37 +43,37 @@ clear
 echo -e "$RED"
 echo -e "Server Information and Status"
 echo -e "$NC"
-echo -e "Platform                                                      : $platform"
+echo -e "Platform                                                  : $platform"
 
-echo -e "Public IP                                                     : $pubip"
+echo -e "Public IP                                                 : $pubip"
 
-echo -e "Processor Installed                                           : $cpucount CORES"
+echo -e "Processor Installed                                       : $cpucount CORES"
 
-echo -e "Processor Name                                                : $cpuname"
+echo -e "Processor Name                                            : $cpuname"
 
-echo -e "OS Version                                                    : $osver"
+echo -e "OS Version                                                : $osver"
 
-echo -e "Server Uptime                                                 : $uptime"
+echo -e "Server Uptime                                             : $uptime"
 
-echo -e "Total Memory                                                  : $totmem GB"
+echo -e "Total Memory                                              : $totmem GB"
 
-echo -e "Free Memory                                                   : $freemem GB"
+echo -e "Free Memory                                               : $freemem GB"
 
-echo -e "Used Disk                                                     : $freedisk"
+echo -e "Used Disk                                                 : $freedisk"
 
-echo -e "cPanel Version                                                : $cpversion"
+echo -e "cPanel Version                                            : $cpversion"
 
-echo -e "Apache Version                                                : $apacheversion"
+echo -e "Apache Version                                            : $apacheversion"
 
-echo -e "MySQL Version                                                 : $mysqlver"
+echo -e "MySQL Version                                             : $mysqlver"
 
-echo -e "Login to WHM                                                  : $cplogin"
+echo -e "Login to WHM                                              : $cplogin"
 
-echo -e "No. of accounts                                               : $cpusers"
+echo -e "No. of accounts                                           : $cpusers"
 
-echo -e "No. of accounts including addon and Subdomains                : $cpuseraccounts"
+echo -e "No. of accounts including addon and Subdomains            : $cpuseraccounts"
 
-echo -e "No. of email accounts (ALL DOMAINS)                           : $totemails \n"
+echo -e "No. of email accounts (ALL DOMAINS)                       : $totemails \n"
 
 echo -e "$RED"
 echo -e "Service Status"
@@ -81,86 +81,86 @@ echo -e "$NC"
 
 if [ "$httpd" = "Service is running" ] ;
 then
-echo -e "                             HTTPD Service                    : Running"
+echo -e "                             HTTPD Service                : Running"
 else
-echo -e "                             HTTPD Service                    : Not Running"
+echo -e "                             HTTPD Service                : Not Running"
 fi
 
 if [ "$mysql" = "Service is running" ] ;
 then
-echo -e "                             MySQL Service                    : Running"
+echo -e "                             MySQL Service                : Running"
 else
-echo -e "                             MySQL Service                    : Not Running"
+echo -e "                             MySQL Service                : Not Running"
 fi
 
 if [ "$dns" = "Service is running" ] ;
 then
-echo -e "                             Bind DNS Service                 : Running"
+echo -e "                             Bind DNS Service             : Running"
 else
-echo -e "                             Bind DNS Service                 : Not Running"
+echo -e "                             Bind DNS Service             : Not Running"
 fi
 
 if [ "$pdns" = "Service is running" ] ;
 then
-echo -e "                             Power DNS Service                : Running"
+echo -e "                             Power DNS Service            : Running"
 else
-echo -e "                             Power DNS Service                : Not Running"
+echo -e "                             Power DNS Service            : Not Running"
 fi
 
 if [ "$exim" = "Service is running" ] ;
 then
-echo -e "                             Exim Service                     : Running"
+echo -e "                             Exim Service                 : Running"
 else
-echo -e "                             Exim Service                     : Not Running"
+echo -e "                             Exim Service                 : Not Running"
 fi
 
 if [ "$dovecot" = "Service is running" ] ;
 then
-echo -e "                             IMAP/POP Service                 : Running"
+echo -e "                             IMAP/POP Service             : Running"
 else
-echo -e "                             IMAP/POP Service                 : Not Running"
+echo -e "                             IMAP/POP Service             : Not Running"
 fi
 
 if [ "$mailman" = "Service is running" ] ;
 then
-echo -e "                             MailMan Service                  : Running"
+echo -e "                             MailMan Service              : Running"
 else
-echo -e "                             MailMan Service                  : Not Running"
+echo -e "                             MailMan Service              : Not Running"
 fi
 
 if [ "$cphulk" = "Service is running" ] ;
 then
-echo -e "                             cPHULK Service                   : Running"
+echo -e "                             cPHULK Service               : Running"
 else
-echo -e "                             cPHULK Service                   : Not Running"
+echo -e "                             cPHULK Service               : Not Running"
 fi
 
 if [ "$crond" = "Service is running" ] ;
 then
-echo -e "                             CRON Service                     : Running"
+echo -e "                             CRON Service                 : Running"
 else
-echo -e "                             CRON Service                     : Not Running"
+echo -e "                             CRON Service                 : Not Running"
 fi
 
 if [ "$zabbix" = "Service is running" ] ;
 then
-echo -e "                             Zabbix Agent Service             : Running"
+echo -e "                             Zabbix Agent Service         : Running"
 else
-echo -e "                             Zabbix Agent CRON Service        : Not Running"
+echo -e "                             Zabbix Agent CRON Service    : Not Running"
 fi
 
 if [ "$csf" = "Service is running" ] ;
 then
-echo -e "                             CSF Firewall Service             : Running"
+echo -e "                             CSF Firewall Service         : Running"
 else
-echo -e "                             CSF Firewall Service             : Not Running"
+echo -e "                             CSF Firewall Service         : Not Running"
 fi
 
 if [ "$cphulk" = "Service is running" ] ;
 then
-echo -e "                             cPanel CPHULK Service            : Running"
+echo -e "                             cPanel CPHULK Service        : Running"
 else
-echo -e "                             cPanel CPHULK Service            : Not Running"
+echo -e "                             cPanel CPHULK Service        : Not Running"
 fi
 echo -e ""
 echo -e ""
