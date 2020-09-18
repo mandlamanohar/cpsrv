@@ -33,7 +33,6 @@ wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinf
       echo -e "***************************************************" 
       echo -e "***************************************************" 
 else   
-clear
 echo -e "***************************************************"
 echo -e "***************************************************"
 echo -e "           COMING SOON - STAY TUNED                " 
