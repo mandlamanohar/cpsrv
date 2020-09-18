@@ -24,7 +24,7 @@ wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinf
       elif [ "$lhoption" = "4" ] ;
         then
         wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinfo.sh | bash
-      elif [ "$lhoption" -gt 4 ] ;
+      elif [ $lhoption -gt 4 ] ;
         then
         clear
         echo -e "***************************************************" 
