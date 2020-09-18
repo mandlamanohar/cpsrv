@@ -12,7 +12,7 @@ echo -e "4 - Server Status"
 echo -e "Select your option to continue:"
 read lhoption
 
-if [ "$lhoption" -eq "1" ] ;
+if [ "$lhoption" = "1" ] ;
 then
 echo -e "                             cPanel CPHULK Service        : Running"
 else
