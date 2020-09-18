@@ -168,3 +168,6 @@ echo -e ""
 echo -e "$RED"
 echo -e "This information was generated at `date` on the server `hostname` with the Public IP $pubip ."
 echo -e "$NC"
+
+read -p "Press enter to continue"
+wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/00-console.sh | bash
