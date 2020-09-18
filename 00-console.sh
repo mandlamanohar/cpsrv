@@ -15,7 +15,7 @@ read lhoption
 if [ "$lhoption" = "1" ] ;
 then
 wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinfo.sh | bash
-      elif [ "$lhoption" = "2" ] ;
+      elif [ "$lhoption" = "2" ];
         then
         clear
         echo -e "***************************************************"
@@ -23,7 +23,7 @@ wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinf
         echo -e "           COMING SOON - STAY TUNED                " 
         echo -e "***************************************************"
         echo -e "***************************************************"
-      elif [ "$lhoption" = "3" ] ;
+      elif [ "$lhoption" = "3" ];
         then
         clear
         echo -e "***************************************************"
@@ -31,7 +31,7 @@ wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinf
         echo -e "           COMING SOON - STAY TUNED                " 
         echo -e "***************************************************"
         echo -e "***************************************************"
-      elif [ "$lhoption" = "4" ] ;
+      elif [ "$lhoption" = "4" ];
         then
         clear
         echo -e "***************************************************"
@@ -39,7 +39,7 @@ wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinf
         echo -e "           COMING SOON - STAY TUNED                " 
         echo -e "***************************************************"
         echo -e "***************************************************"
-      elif [ "$lhoption" -gt "4" ] ;
+      elif [ "$lhoption" -gt "4" ];
         then
         clear
         echo -e "***************************************************" 
