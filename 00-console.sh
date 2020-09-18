@@ -9,8 +9,8 @@ echo -e "2 - WHM Status"
 echo -e "3 - Apache Status"
 echo -e "4 - Server Status"
 
-echo -e "Select your option to continue:"
-read lhoption
+read -p "Select your option to continue:" lhoption
+
 
 if [ "$lhoption" = "1" ] ;
 then
