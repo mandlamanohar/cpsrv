@@ -40,9 +40,9 @@ cphulk=`systemctl is-active --quiet cphulkd && echo Service is running`
 
 clear
 
-echo -e "$RED"
+echo -e "*****************************"
 echo -e "Server Information and Status"
-echo -e "$NC"
+echo -e "*****************************"
 echo -e "Platform                                                  : $platform"
 
 echo -e "Public IP                                                 : $pubip"
@@ -75,9 +75,9 @@ echo -e "No. of accounts including addon and Subdomains            : $cpuseracco
 
 echo -e "No. of email accounts (ALL DOMAINS)                       : $totemails \n"
 
-echo -e "$RED"
+echo -e "**************"
 echo -e "Service Status"
-echo -e "$NC"
+echo -e "**************"
 
 if [ "$httpd" = "Service is running" ] ;
 then
