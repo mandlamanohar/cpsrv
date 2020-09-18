@@ -15,23 +15,23 @@ read lhoption
 if [ "$lhoption" = "1" ] ;
 then
 wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinfo.sh | bash
-   elif [ "$lhoption" = "2" ] ;
-      then
-      wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinfo.sh | bash
-   elif [ "$lhoption" = "3" ] ;
-      then
-      wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinfo.sh | bash
+      elif [ "$lhoption" = "2" ] ;
+        then
+        wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinfo.sh | bash
+      elif [ "$lhoption" = "3" ] ;
+        then
+        wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinfo.sh | bash
       elif [ "$lhoption" = "4" ] ;
-      then
-      wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinfo.sh | bash
-            elif [ "$lhoption" -gt "4" ] ;
-      then
-      clear
-      echo -e "***************************************************" 
-      echo -e "***************************************************" 
-      echo -e "             NO SUCH OPTION - SORRY                " 
-      echo -e "***************************************************" 
-      echo -e "***************************************************" 
+        then
+        wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinfo.sh | bash
+      elif [ "$lhoption" -gt "4" ] ;
+        then
+        clear
+        echo -e "***************************************************" 
+        echo -e "***************************************************" 
+        echo -e "             NO SUCH OPTION - SORRY                " 
+        echo -e "***************************************************" 
+        echo -e "***************************************************" 
 else   
 echo -e "***************************************************"
 echo -e "***************************************************"
