@@ -1,9 +1,5 @@
 #!/bin/bash
 
-#COLORS
-RED='\033[0;31m'
-NC='\033[0m' # No Color
-
 #SERVER
 platform=`cat /var/cpanel/envtype`
 osver=`cat /etc/*release | head -n 1`
@@ -165,9 +161,7 @@ fi
 echo -e ""
 echo -e ""
 echo -e ""
-echo -e "$RED"
 echo -e "This information was generated at `date` on the server `hostname` with the Public IP $pubip ."
-echo -e "$NC"
 
 read -p "Press enter to continue"
-wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/00-console.sh | bash
+bash <(curl -s https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/00-console.sh)
