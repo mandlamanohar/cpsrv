@@ -17,6 +17,7 @@ then
 wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinfo.sh | bash
       elif [ "$lhoption" = "2" ] ;
         then
+        clear
         echo -e "***************************************************"
         echo -e "***************************************************"
         echo -e "           COMING SOON - STAY TUNED                " 
@@ -24,6 +25,7 @@ wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinf
         echo -e "***************************************************"
       elif [ "$lhoption" = "3" ] ;
         then
+        clear
         echo -e "***************************************************"
         echo -e "***************************************************"
         echo -e "           COMING SOON - STAY TUNED                " 
@@ -31,6 +33,7 @@ wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinf
         echo -e "***************************************************"
       elif [ "$lhoption" = "4" ] ;
         then
+        clear
         echo -e "***************************************************"
         echo -e "***************************************************"
         echo -e "           COMING SOON - STAY TUNED                " 
@@ -44,10 +47,4 @@ wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinf
         echo -e "             NO SUCH OPTION - SORRY                " 
         echo -e "***************************************************" 
         echo -e "***************************************************" 
-else   
-echo -e "***************************************************"
-echo -e "***************************************************"
-echo -e "           COMING SOON - STAY TUNED                " 
-echo -e "***************************************************"
-echo -e "***************************************************"
 fi
