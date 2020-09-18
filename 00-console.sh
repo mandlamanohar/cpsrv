@@ -17,13 +17,25 @@ then
 wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinfo.sh | bash
       elif [ "$lhoption" = "2" ] ;
         then
-        wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinfo.sh | bash
+        echo -e "***************************************************"
+        echo -e "***************************************************"
+        echo -e "           COMING SOON - STAY TUNED                " 
+        echo -e "***************************************************"
+        echo -e "***************************************************"
       elif [ "$lhoption" = "3" ] ;
         then
-        wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinfo.sh | bash
+        echo -e "***************************************************"
+        echo -e "***************************************************"
+        echo -e "           COMING SOON - STAY TUNED                " 
+        echo -e "***************************************************"
+        echo -e "***************************************************"
       elif [ "$lhoption" = "4" ] ;
         then
-        wget -O -  https://raw.githubusercontent.com/mandlamanohar/cpsrv/master/01-cpinfo.sh | bash
+        echo -e "***************************************************"
+        echo -e "***************************************************"
+        echo -e "           COMING SOON - STAY TUNED                " 
+        echo -e "***************************************************"
+        echo -e "***************************************************"
       elif [ "$lhoption" -gt "4" ] ;
         then
         clear
